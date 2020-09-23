@@ -38,6 +38,5 @@ RUN cypress verify
 
 RUN cypress cache path
 RUN cypress cache list
-RUN cypress install --force
 
 CMD service docker start && /bin/bash
